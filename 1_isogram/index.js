@@ -9,5 +9,6 @@ function isIsogram(str) {
     console.log(`${str} is an isogram`)
     return true;
 }
-isIsogram("hello")
-isIsogram("Kim")
+
+
+module.exports = isIsogram;
